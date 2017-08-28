@@ -424,6 +424,10 @@
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
+		<repository>
+			<id>egit-releases</id>
+			<url>https://mvnrepository.com/artifact/org.eclipse.mylyn.github/</url>
+		</repository>
 		<site>
 			<id>github-project-site</id>
 			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
