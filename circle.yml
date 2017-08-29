@@ -8,6 +8,10 @@ script:
 branches:
   only:
     - develop
-
+test:
+  override:
+    - mkdir -p $CIRCLE_TEST_REPORTS/cucumber
+    - bundle exec cucumber --format pretty --format json --out $CIRCLE_TEST_REPORTS/cucumber/tests.cucumber
+    
 after_success:
 - bash <(curl -s https://codecov.io/bash)
