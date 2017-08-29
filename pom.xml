@@ -420,10 +420,10 @@
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
-		<repository>
+		<!-- repository>
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>		
+		</repository -->		
 		<site>
 			<id>github-project-site</id>
 			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
