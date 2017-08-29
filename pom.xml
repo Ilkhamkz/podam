@@ -431,7 +431,7 @@
 	</distributionManagement>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.eclipse.mylyn.github/org.eclipse.egit.github.core.tests -->
+		<!--  https://mvnrepository.com/artifact/org.eclipse.mylyn.github/org.eclipse.egit.github.core.tests -->
 		<dependency>
     			<groupId>org.eclipse.mylyn.github</groupId>
     			<artifactId>org.eclipse.egit.github.core.tests</artifactId>
