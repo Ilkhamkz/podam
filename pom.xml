@@ -230,7 +230,7 @@
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
-				<version>0.10</version>
+				<version>0.12</version>
 				<configuration>
 					<message>Creating site for ${project.version}</message>
 				</configuration>
@@ -420,10 +420,10 @@
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
-		<!-- repository>
+		<repository>
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository -->		
+		</repository>
 		<site>
 			<id>github-project-site</id>
 			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
@@ -431,12 +431,6 @@
 	</distributionManagement>
 
 	<dependencies>
-		<!--  https://mvnrepository.com/artifact/org.eclipse.mylyn.github/org.eclipse.egit.github.core.tests -->
-		<dependency>
-    			<groupId>org.eclipse.mylyn.github</groupId>
-    			<artifactId>org.eclipse.egit.github.core.tests</artifactId>
-    			<version>3.1.0.201310021548-r</version>
-		</dependency>
 		<dependency>
 			<groupId>net.jcip</groupId>
 			<artifactId>jcip-annotations</artifactId>
@@ -545,4 +539,3 @@
 
 
 </project>
-
